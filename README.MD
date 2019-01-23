@@ -1,3 +1,3 @@
 This is my portfolio
 
-file:///Users/tpl9/Desktop/techtonica-projects/Portfolio-Project/index.html#myPage
+https://github.com/Kell-Stack/p2-portfolio.git
