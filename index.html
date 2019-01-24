@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+
   <style>
   body {
     font: 400 15px Lato, sans-serif;
@@ -177,8 +177,12 @@
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
+    <main role="main"></main>  <!-- ARIA 2-->
   </div>
 </nav>
+
+<div id="percent-loaded" role="progressbar" aria-valuenow="75" 
+     aria-valuemin="0" aria-valuemax="100" </div>  <!-- ARIA 1-->
 
 <div class="jumbotron text-center">
   <h1>Kelly Sousa</h1> 
